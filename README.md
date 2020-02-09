@@ -4,11 +4,11 @@
 
 # Technology Used
 
-- javascript
-- html5
-- css
-- materialize
+    - javascript
+    - html5
+    - css
+    - materialize
 
-* Developer
+# Developer
 
 - Abiel Hailemariam 2020
