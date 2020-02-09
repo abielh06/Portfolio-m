@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+</script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+<div class="navbar-fixed">
+    <nav class="black">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">My Portfolio</a>
+                <ul class="right hide-on-med-and-down" id="navList">
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Landing Screen -->
+<div class="section" id="landing">
+    <h5 id="mainText" class="center"></h5>
+    <h1 style="color: white;"  class="center">
+        Abiel <b>Hailemariam</b>
+    </h1>
+    <h6 id="mainText" class="center">A Web Developer</h6>
+</div>
+
+<!-- FIXED ACTION BUTTON -->
+<div class="fixed-action-btn vertical">
+    <a class="btn-floating btn-large  blue-grey darken-4">
+        <i class="fa fa-globe"></i>
+    </a>
+    <ul>
+        <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+        <li><a class="btn-floating blue-grey lighten-1"><i src="" class="fa fa-linkedin"></i></a></li>
+    </ul>
+</div>
+
+<!-- Intro and service -->
+<div id="intro" class="section black">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="center header"> "If you love life, don't waste time, 
+                        for time is what life is made up of"</h2>
+            </div>
+        </div>
+        <div class="row center">
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/me.png">
+            </div>
+            <dic class="col s12 m12 offset-l1 l8">
+                <h5 class="center"><b>ABOUT ME</b></h5>
+                <p>
+                    I am originally from Dallas, Texas, but now I call San Antonio home. I attended UTSA and recieved a B.S. in Multi-disciplinary Science. Currently I teach AP Physics and Dual-Enrollment Physics through The University of Texas at Austin at Karen Wagner High School.  I am married to a wonderful woman whom I met at UTSA and we have 3 lovely children together.
+                    <br />
+                    <!-- <i>“Some Awesome Quote To Show Off!” </i>  -->
+                </p>
+            </dic>
+        </div>
+    </div>
+</div>
+
+<!-- parallax  -->
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/images/background2.png"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header"></h2>
+      <p class="grey-text text-darken-3 lighten-3"></p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/background3.png"></div>
+  </div>
+
+<!--Work-->
+<div class="section" style="background-color: #3e3b3b;" id="work">
+    <div class="container">
+        <h3 class="header text_b center">My Projects </h3>
+        <div class="row ">
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator"  src="assets/images/TrainScheduler.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">Train Scheduler <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href="https://abielh06.github.io/Train-Scheduler/">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">Train Scheduler<i class="mdi-navigation-close right"></i></span>
+                        <p>
+                            A train schedule web application that incorporates Firebase to host arrival and departure data.
+                            Trains can be added to the scheduler and incorporates momentjs to timestamp the current time, departure time, and arrival time.  </p>
+                    </div>
+                </div>
+            </div>      
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator" height="250px" src="assets/images/Bamazon.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">Bamazon<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href=" https://drive.google.com/file/d/1bv-zfmGF4okP4N3UVnGnbNJi8J2mBRR6/view">Project Demo</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">Bamazon<i class="mdi-navigation-close right"></i></span>
+                        <p>CLI application of a hypothetical online store that mimics an Amazon like online store using Node.j and MySql.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator" height="250px" src="assets/images/TacoApp.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">Taco App <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href="https://burger-app-abiel.herokuapp.com/burgers">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">Taco App<i class="mdi-navigation-close right"></i></span>
+                        <p>
+                            Eat-Da-Taco is a restaurant app that lets users input the names of tacos they'd like to eat. Whenever a user submits a taco's name, your app will display the taco on the left side of the page -- waiting to be devoured. Each taco in the waiting area also has a Devour it! button. When the user clicks it, the taco will move to the right side of the page. Your app will store every taco in a MySQL database, whether devoured or not.  </p>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <div class="row ">
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator" height="250px" src="assets/images/ConcertLocator.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">Project 1 <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href="https://abielh06.github.io/AABsConcertOut_Project-I/">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">Concert Locator<i class="mdi-navigation-close right"></i></span>
+                        <p>
+                            Concert Locator is app that utilizes the ticketmaster API to locate concerts in your region and applies the mapquest api to provide directions from your residence to the concert. </p>
+                    </div>
+                </div>
+            </div>      
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator" height="250px" src="assets/images/giphy.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">GifTastic<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href="https://abielh06.github.io/GifTastic/">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">GifTastic<i class="mdi-navigation-close right"></i></span>
+                        <p>A fun app full of gifs using the giphy api.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col s12 m12 l4">
+                <div class="card hoverable black">
+                    <div class="card-image image-resize waves-effect waves-block waves-light">
+                        <img class="activator" height="250px" src="assets/images/project2.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text text-lighten-5">Project 2<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="white-text text-lighten-5" href="https://good-games-app.herokuapp.com/">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title white-text text-lighten-5">GoodGames App <i class="mdi-navigation-close right"></i></span>
+                        <p> An application that allows gamers to share reviews and updates about their favorite games</p>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+</div>
+    <!-- Skill Sets -->
+<div class="section" style="background-color: #101010;" id="skillsets">
+    <div class="container">
+        <div class="row">
+            <h1 class="center white-text">
+                My Skills
+            </h1>
+        </div>
+        <div class="row center">
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/html5.png">
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/css3.png">
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/javascript.png">
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/nodejs.png">
+            </div>
+        </div>
+        <div class="row center">
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/mysql2.png">
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/heroku.png">
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/firebase.png"> 
+            </div>
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="assets/images/react.png">
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="section page-footer black">
+    <div class="container center-align">
+        &#169; Abiel Hailemariam 2019
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+<script src="assets/js/logic.js"></script>
+</html>
